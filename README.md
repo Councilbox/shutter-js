@@ -427,7 +427,15 @@ Promise Returns:
    mutedCam: false,
    displayName: 'Speaker Test',
    language: 'en',
-   data: null
+   data: null,
+   toolbarShortcuts: {
+      shareScreen: true,
+      captureFrame: false
+   },
+   requiredMediaPermits: {
+      video: false,
+      audio: false
+   }
   },
   ...
  ],
@@ -498,7 +506,15 @@ Promise Returns:
    mutedCam: false,
    displayName: 'Speaker Test',
    language: 'en',
-   data: null
+   data: null,
+   toolbarShortcuts: {
+      shareScreen: true,
+      captureFrame: false
+   },
+   requiredMediaPermits: {
+      video: false,
+      audio: false
+   }
   },
   ...
  ],
@@ -560,6 +576,14 @@ try {
           mutedCam: false,
           displayName: "Moderador",
           language: "es",
+          toolbarShortcuts: {
+             shareScreen: true,
+             captureFrame: false
+          },
+          requiredMediaPermits: {
+             video: false,
+             audio: false
+          }
         },
       ],
       password: "abc12345",
@@ -619,7 +643,15 @@ Promise Returns:
       displayName: 'Moderador',
       language: 'es',
       online: false,
-      data: null
+      data: null,
+      toolbarShortcuts: {
+         shareScreen: true,
+         captureFrame: false
+      },
+      requiredMediaPermits: {
+         video: false,
+         audio: false
+      }
     }
   ],
   url: null,
@@ -681,7 +713,15 @@ try {
         mutedMic: false,
         mutedCam: false,
         displayName: 'Moderador',
-        language: 'es'
+        language: 'es',
+        toolbarShortcuts: {
+           shareScreen: true,
+           captureFrame: false
+        },
+        requiredMediaPermits: {
+           video: false,
+           audio: false
+        }
        }
       ],
       password: 'abc12345',
@@ -733,7 +773,15 @@ Promise Returns:
    mutedMic: false,
    mutedCam: false,
    displayName: 'Moderador',
-   language: 'es'
+   language: 'es',
+   toolbarShortcuts: {
+      shareScreen: true,
+      captureFrame: false
+   },
+   requiredMediaPermits: {
+      video: false,
+      audio: false
+   }
   }
  ],
  password: 'abc12345',
@@ -1131,7 +1179,15 @@ Promise Returns:
   mutedCam: false,
   displayName: 'Speaker Test',
   language: 'en',
-  data: null
+  data: null,
+  toolbarShortcuts: {
+     shareScreen: true,
+     captureFrame: false
+  },
+  requiredMediaPermits: {
+     video: false,
+     audio: false
+  }
  },
  ...
 ]
@@ -1182,7 +1238,15 @@ Promise Returns:
   mutedCam: false,
   displayName: 'Speaker Test',
   language: 'en',
-  data: null
+  data: null,
+  toolbarShortcuts: {
+     shareScreen: true,
+     captureFrame: false
+  },
+  requiredMediaPermits: {
+     video: false,
+     audio: false
+  }
  }
 ```
 
@@ -1251,7 +1315,15 @@ try {
   mutedMic: false,
   mutedCam: false,
   displayName: 'Speaker Test 2',
-  language: 'en'
+  language: 'en',
+  toolbarShortcuts: {
+     shareScreen: true,
+     captureFrame: false
+  },
+  requiredMediaPermits: {
+     video: false,
+     audio: false
+  }
    }
   });
   console.log(createdAttendee) // logs response data
@@ -1283,7 +1355,15 @@ Promise Returns:
   displayName: 'Speaker Test 2',
   email: 'speaker2@shutter.com'
   language: 'en',
-  data: null
+  data: null,
+  toolbarShortcuts: {
+     shareScreen: true,
+     captureFrame: false
+  },
+  requiredMediaPermits: {
+     video: false,
+     audio: false
+  }
 }
 ```
 
@@ -1322,7 +1402,15 @@ try {
   mutedMic: false,
   mutedCam: false,
   displayName: 'Speaker Test 2 Updated',
-  language: 'en'
+  language: 'en',
+  toolbarShortcuts: {
+     shareScreen: true,
+     captureFrame: false
+  },
+  requiredMediaPermits: {
+     video: false,
+     audio: false
+  }
    }
   });
   console.log(updatedAttendee) // logs response data
@@ -1354,7 +1442,15 @@ Promise Returns:
   displayName: 'Speaker Test 2 Updated',
   email: 'speaker2@shutter.com'
   language: 'en',
-  data: null
+  data: null,
+  toolbarShortcuts: {
+     shareScreen: true,
+     captureFrame: false
+  },
+  requiredMediaPermits: {
+     video: false,
+     audio: false
+  }
 }
 ```
 
